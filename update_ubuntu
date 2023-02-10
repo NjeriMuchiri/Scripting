@@ -2,7 +2,7 @@
 
 # Commands for updating my host
 
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -yy
+sudo apt-get upgrade -yy
 
 exit
