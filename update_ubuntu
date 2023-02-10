@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Commands for updating my host
+
+sudo apt-get update
+sudo apt-get upgrade
+
+exit
