@@ -1,0 +1,13 @@
+#!/bin/bash
+
+test -d  /usr/local/bin
+if [ "$?" -eq 0 ] #Check the return code
+then   #The return code is zero
+
+    echo '/usr/local/bin  does exist'
+
+else
+
+   echo '/usr/local/bin does NOT  exist'
+
+fi
