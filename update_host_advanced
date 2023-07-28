@@ -61,7 +61,7 @@ echo "Up -- Ubuntu/Debian Update Tool"
 
 #Update and clean:
 
-if [ "$1" == "--Clean" ]; then
+if [ "$1" == "--clean" ]; then
      update
      clean
      leave

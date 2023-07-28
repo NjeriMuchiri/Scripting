@@ -1,0 +1,7 @@
+#!/bin/bash
+pid=$1
+while ((pid)); do
+ps -h -o | sed -E
+pid=$(ps -h -o ppid $pid)
+done
+
